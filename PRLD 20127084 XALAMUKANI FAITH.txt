@@ -1,0 +1,145 @@
+Start																																										
+ Declarations
+    String student
+   num time
+   num temperature
+   num ARRAYS_SIZE=
+   num StudentNumAdmitted [300]
+   StudentNumsNotAdmitted
+  
+ 
+   output"enter (1) to capture student details
+     or Enter(2) to search a student 
+	 or Enter(3) to check a student"
+	 
+	 input choice 
+	 if choice ==1 
+	   StudentDetails()
+	   
+	 else 
+	     if choice==2
+		    searchStudent()
+			
+	 else
+         if choice==3
+		 checkStudent()
+	 Stop
+     
+     	 
+     for i =0(ARRAYS_SIZE-1) step 1
+	 studentDetails()
+	    Declarations
+         num string name[size] 
+		 num string surname[size]
+		 StudentNum[size]
+		 count=0
+		 
+	     output "please enter your name[count] "
+		 
+		  input name[size]
+		   
+		 
+     else
+     	   output "please enter your surname[count]"
+         input surname[count]
+		 
+		 return
+		 
+		 for i=0(ARRAYS_SIZE-1) Step 2
+		 SearchArray()
+		 
+		  Declarations
+		 studentNum[size]
+		 
+		 output"Enter studentNum[count] you are searching for  
+         
+         input studentNum[count]
+		 if studentNum==student-ARRAY [count]then 
+		 output "studentNum[count]
+
+     else
+	 output"SEARCH NOT FOUND"
+
+     return
+	 for i=0(ARRAYS_SIZE-1) Step 3
+	 checkArray()
+	 
+ 	 Declarations
+	 Num time[size]
+	 
+	 output" please enter your time[count]"
+     input time[count]
+     
+     if	 
+     student time[count] be at school before 12 
+     then output" good timing you are allowed"
+
+    else
+     student time[count] be at school after 12 
+	 then output"too late not allowed"
+
+return
+
+if i=0(ARRAYS_SIZE-1) Step 4
+    statusArray
+	
+     Declarations
+      num Temp[SIZE]
+	  
+	  output"please enter your Temp"
+     input Temp[count]
+	 
+	 
+	 if
+      student[count] is less then 38 degreses
+     then output"Amdmitted you are allowed "
+	 
+	 else
+	 student[count] is more than 38 degreses
+	 then output"not Amdmitted sorry you not allowed"
+endif
+endif
+endif
+endif 
+count =count+1
+
+stop
+
+	Question 2
+	Start
+	  Declarations
+	  String checkStudent
+           String updateStudent       
+	   output"Enter*(1)to updatestudent about COVID-19
+	   or Enter*(2) to check students "
+	   
+	   input choice
+	    if choice==1
+		  updatestudent
+		  
+		  
+		  else
+		  if choice==2 
+		  ckeck student
+		  
+	endif
+        endif
+         count=count+1	  
+		  stop
+		  
+		  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	 
+
+
+
+
+
+
+
